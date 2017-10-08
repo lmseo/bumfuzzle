@@ -1,0 +1,7 @@
+<div class="pushwrapper"><?php include_once( $include_root . '/includes/templates/2015/january/main/part.topToolBar.php'); ?><?php include_once($include_root . '/includes/templates/2015/january/main/part.header.php'); ?><div class="divider"></div><div id="main" role="main"><div class="wrapper"><!-- google_ad_section_start --><div class="breadcrumbs" style=""><?php $newPage->printBreadCrumb(); ?></div><section class='left-section'><?php $newPage->printH1();?><?php //endif; 
+$newPage->printH2(); ?><?php $newPage->printContent(); ?><div class="contactFormBox sent"><h2>Your Message</h2><div class="contactFormIn"><div class="contactSent"><?php
+ $newForm->sendEmailToAdmin();
+ $newForm->displayVisitorEntry();
+$newForm->sendEmailToSales(); 
+?></div></div></div>
+</section></div></div><div class="combination-information"><div class="wrapper"><section class="content-links"></section></div></div></div><div class="push"></div></div><div class="dividerBottom"></div><!-- google_ad_section_start(weight=ignore) --><?php include_once($include_root . '/includes/templates/2015/january/main/part.footer.php'); ?><!-- google_ad_section_end --><?php include_once($include_root . '/includes/templates/2015/january/main/part.bottomContent.php'); ?>

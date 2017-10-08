@@ -1,0 +1,1925 @@
+
+@import url(http://opiatesdrugs.com/eopiates_com/css/main/2011/november/fontface.css);
+
+/*
+  RESET
+--------------------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  }
+
+article,aside,details,figcaption,.figure,
+footer,header,hgroup,nav,section {
+  display: block;
+  }
+
+audio,canvas,video {
+  display: inline-block;
+  }
+
+.ie7 audio,.ie7 canvas,.ie7 video {
+  display: inline;
+  zoom: 1;
+  }
+
+audio:not([controls]) {
+  display: none;
+  }
+
+[hidden] {
+  display: none;
+  }
+
+/*
+  SELECTIONS
+--------------------------------------------- */
+
+::-webkit-selection {
+  background: rgb(225,100,0);
+  color: rgb(254,255,248);
+  text-shadow: none;
+  }
+
+::-moz-selection {
+  background: rgb(225,100,0);
+  color: rgb(254,255,248);
+  text-shadow: none;
+  }
+
+::selection {
+  background: rgb(225,100,0);
+  color: rgb(254,255,248);
+  text-shadow: none;
+  }
+
+/*
+  TRANSITIONS
+--------------------------------------------- */
+
+@-webkit-keyframes arrow {
+  0% { background-position: 50% 0px; }
+  100% { background-position: 50% 31px; }
+  }
+
+/*
+  ROOT
+--------------------------------------------- */
+
+html, body {
+  height: 100%;
+  }
+
+.pushwrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -5.5em;
+  }
+
+html {
+  -webkit-tap-highlight-color: rgb(160,161,154);
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  background: rgb(254,255,248);
+  overflow-y: scroll;
+  }
+
+body {
+  font: 100%/1.4 "PTSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: transparent;
+  color: rgb(96,97,91);
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  }
+
+button,input,
+select,textarea {	
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(41,37,31);
+  }
+
+.wrapper {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+/*
+  HEADINGS
+--------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "TrumpGothicEastBold", "Arial Narrow", Impact, sans-serif;
+  font-weight: normal;
+  color: rgb(41,37,31);
+  }
+
+h1 {
+  margin: 0 auto .5em;
+  line-height: 1em;
+  display: block;
+  text-align: center;
+  width: 72%;
+  }
+
+.ie7 h1 {
+  margin-bottom: 25px;
+  }
+
+h1 img {
+  width: 100%;
+  max-width: 771px; /* 100% */
+  max-height: 301px; /* 100% */
+  }
+
+.sub h1 {
+  margin: 0 0 .18em;
+  font: 1.9em/1.2 "MochaMattari", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -1px;
+  text-align: center;
+  width: 100%;
+  }
+
+h2 {
+  font: .9375em/1.2 "PTSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+  color: rgb(254,255,248);
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+  }
+
+.sub h2 {
+  font: 1.25em/1.3 "TrumpGothicEastMedium", "Arial Narrow", Impact, sans-serif;
+  text-transform: uppercase;
+  color: rgb(106,107,101);
+  letter-spacing: .5px;
+  max-width: 100%;
+  margin-bottom: 1em;
+  }
+
+.no-fontface .sub h2 {
+  text-transform: none;
+  }
+
+.no-js h2 {
+  margin-bottom: 1.75em;
+  }
+
+.desc h2,
+h3 {
+  font: 1.45em/1.3 "TrumpGothicEastMedium", "Arial Narrow", Impact, sans-serif;
+  text-transform: uppercase;
+  color: rgb(41,37,31);
+  letter-spacing: 1px;
+  margin-bottom: .3em;
+  text-align: left;
+  }
+
+.no-fontface .desc h2,
+.no-fontface h3 {
+  text-transform: none;
+  }
+
+.entry h3 {
+  margin: 1.2em 0 .4em;
+  }
+
+.desc h2 {
+  font-size: 2em;
+  }
+
+.slide h2 i {
+  font-style: normal;
+  text-transform: lowercase;
+  }
+
+/*
+  TYPOGRAPHY
+--------------------------------------------- */
+
+p,ol,ul,address {
+  margin-bottom: .5em;
+  font-size: 1em;
+  }
+
+p {
+  text-align: left;
+  font-size: .9375em;
+  -webkit-hyphens: auto;
+  -webkit-hyphenate-character: "\2010";
+  -webkit-hyphenate-limit-after: 1;
+  -webkit-hyphenate-limit-before: 3;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  }
+
+ul,ol {
+  margin: 0 0 1.5em -24px;
+  padding: 0 0 0 24px;
+  }
+
+li ul,
+li ol {
+  margin: 0;
+  font-size: 1em;
+  }
+
+.entry article ul {
+  font-size: .9375em;
+  margin-left: 0px;
+  list-style-type: square;
+  }
+
+blockquote  {
+  font: italic .875em/20px Georgia, "Times New Roman", Times, serif;
+  background: transparent url(http://opiatesdrugs.com/eopiates_com/images/home/quote.png) no-repeat;
+  margin: 0 0 1.5em 0;
+  padding-left: 38px;
+  }
+
+blockquote:before,
+blockquote:after {
+  content: '';
+  content: none;
+  }
+
+#main blockquote p  {
+  margin-bottom: 8px;
+  }
+
+abbr[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+  }
+
+b,strong {
+  font-weight: bold;
+  }
+
+article p b,
+article p strong {
+  font-family: "PTSansBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  }
+
+pre,code {
+  font: .875em/1.5 monospace, monospace;
+  }
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  }
+
+em,i {
+  font-style: italic;
+  font-weight: normal;
+  }
+
+/*
+  LINKS
+--------------------------------------------- */
+
+a,
+a:visited {
+  -webkit-transition: all .2s ease-in;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  text-decoration: none;
+  color: rgb(205,82,0);
+  }
+
+a:hover,
+a:active {
+  outline: 0;
+  }
+
+a:hover {
+  text-decoration: underline;
+  }
+
+a:active,
+a:focus {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+  opacity: .7;
+  }
+
+h2 a,
+h2 a:visited {
+  font-family: "PTSansBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: rgb(35,32,26);
+  }
+
+.sub h2 a,
+.sub h2 a:visited {
+  font-family: "TrumpGothicEastMedium", "Arial Narrow", Impact, sans-serif;
+  }
+
+h2 a:hover,
+h2 a:active {
+  text-decoration: underline;
+  opacity: 1.0;
+  }
+
+p a,
+p a:visited,
+.entry article ul a,
+.entry article ul a:visited {
+  text-shadow: 0 1px 1px rgba(255,255,255,.7);
+  border-bottom: 1px solid rgb(213,213,205);
+  background: rgb(233,234,225);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: rgb(96,97,91);
+  text-decoration: none;
+  padding: 0 3px;
+  }
+
+p a:hover,
+.entry article ul a:hover {
+  border-bottom: 1px solid rgb(173,173,165);
+  background: transparent;
+  color: rgb(41,37,31);
+  text-decoration: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  }
+
+.readmore {
+  background-position: right 4px;
+  }
+
+.readmore:hover {
+  background: transparent url(http://opiatesdrugs.com/eopiates_com/images/home/arrow_red.png) no-repeat right 4px;
+  padding-right: 20px;
+  }
+
+.sub article .readmore {
+  margin-top: -0.3em;
+  display: block;
+  float: left;
+  }
+
+footer a,
+footer a:visited {
+  background: transparent;
+  color: rgb(160,161,154);
+  padding: 0;
+  border: 0;
+  }
+
+footer a:hover {
+  color: rgb(41,37,31);
+  }
+
+/*
+  IMAGES
+--------------------------------------------- */
+
+img {
+  border: 0;
+  background: transparent;
+  -ms-interpolation-mode: bicubic;
+  }
+
+#main img {
+  width: 100%;
+  height: auto;
+  }
+
+.img a:active,
+.img a:focus {
+  opacity: 1.0;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+  }
+
+.project img,
+.entry article img {
+  -webkit-box-shadow: rgba(0,0,0,.4) 0 0 3px;
+  -moz-box-shadow: rgba(0,0,0,.4) 0 0 3px;
+  box-shadow: rgba(0,0,0,.4) 0 0 3px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  max-width: 840px;
+  }
+
+.oldie .project img {
+  border: 1px solid rgb(210,210,210);
+  }
+
+.project .nofx,
+.oldie .project .nofx,
+.entry article img {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border: 0;
+  }
+
+.jacket {
+  width: 112px !important;
+  height: 268px;
+  display: block;
+  margin: 0 auto;
+  }
+
+svg:not(:root) {
+  overflow: hidden;
+  }
+
+/*
+  FORMS
+--------------------------------------------- */
+
+fieldset {
+  border-width: 0;
+  padding: 0;
+  margin: 0;
+  }
+
+button,input,
+select,textarea {
+  background: rgb(255,255,255);
+  vertical-align: baseline;
+  font-size: 100%;
+  }
+
+.ie7 button,.ie7 input,
+.ie7 select,.ie7 textarea {
+  vertical-align: middle;
+  }
+
+button,input {
+  line-height: normal;
+  }
+
+.ie7 button,.ie7 input {
+  overflow: visible;
+  }
+
+::-webkit-input-placeholder {
+  font-size: .875em;
+  line-height: 1.4;
+  }
+
+input:-moz-placeholder {
+  font-size: .875em;
+  line-height: 1.4;
+  }
+
+/*
+  HEADER
+--------------------------------------------- */
+
+header {
+  background: rgb(205,82,0) url(http://opiatesdrugs.com/eopiates_com/images/home/backgrounds/orange.jpg) repeat -100% 0;
+  padding: 10px 0 0;
+  z-index: 9;
+  }
+
+.sub header {
+  background: transparent none;
+  }
+
+header .wrapper,
+header .figure {
+  position: relative;
+  z-index: 20;
+  }
+
+.figure {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+  width: 100%;
+  }
+
+.figure a {
+  margin: 0 auto 25px;
+  display: block;
+  height: auto;
+  float: none;
+  width: 88px;
+  }
+
+.figure img {
+  width: 88px;
+  height: auto;
+  }
+/*
+ BREADCRUMBS
+*/
+.breadcrumbs{margin:15px 0 0 0; font-size:.9em}
+/*
+  NAVIGATION
+--------------------------------------------- */
+
+nav {
+  background: rgb(41,37,31) url(http://opiatesdrugs.com/eopiates_com/images/home/backgrounds/darkbrown.jpg) repeat 150% 0;
+  text-align: right;
+  padding: 7px 0;
+  z-index: 10;
+  width: 100%;
+  }
+
+.no-js nav {
+  text-align: center;
+  }
+
+nav ul {
+  margin: 0 auto;
+  display: none;
+  padding: 0;
+  }
+
+.no-js nav ul {
+  display: block;
+  }
+
+nav li {
+  display: inline;
+  }
+
+nav li:last-child {
+  display: none;
+  }
+
+nav a:link,
+nav a:visited,
+nav a:hover {
+  color: rgb(254,255,248);
+  text-decoration: none;
+  padding: 12px 10px;
+  font-size: .8125em;
+  }
+
+.no-js nav .active a,
+.no-js nav .active a:visited,
+.no-js nav .active a:hover {
+    background: rgb(205,82,0) url(http://opiatesdrugs.com/eopiates_com/images/home/backgrounds/orange.jpg) repeat -100% 0;
+    }
+
+.no-js .sub nav .active a,
+.no-js .sub nav .active a:visited,
+.no-js .sub nav .active a:hover {
+    background: rgb(254,255,248) none;
+    color: rgb(41,37,31);
+    }
+
+nav select {
+  background: rgb(255,255,255);
+  font-size: .8125em;
+ margin-right: 100px;
+  width: 45%;
+  }
+
+/*
+  MAIN
+--------------------------------------------- */
+
+#main {
+  padding: 34px 7% .5em;
+  position: relative;
+  overflow: hidden;
+  }
+
+.sub #main {
+  -webkit-font-smoothing: antialiased;
+  margin-top: -10px;
+  padding-top: 0;
+  }
+
+section {
+  margin-bottom: 2em;
+  }
+
+.sub section {
+  margin-bottom: 0;
+  }
+
+section p {
+  -webkit-font-smoothing: antialiased;
+  }
+
+.sub section p {
+  margin-bottom: 1.2em;
+  }
+
+.sub .project p {
+  margin-bottom: 0;
+  }
+
+.sub .project p + p {
+  text-indent: 1.5em;
+  margin-bottom: 1.2em;
+  }
+
+.complementary {
+  display: none;
+  }
+
+/*
+  FOOTER
+--------------------------------------------- */
+
+footer {
+  font: .6875em/1.6 Arial, Helvetica, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(160,161,154);
+  padding: 0 7% 40px;
+  overflow: hidden;
+  }
+
+footer p {
+  max-width: 260px;
+  float: left;
+  }
+
+.sub footer {
+  margin-top: 1em;
+  height: 4em;
+  padding-bottom: 0 !important;
+  }
+
+.twitter,
+.dribbble {
+  background: transparent url(http://opiatesdrugs.com/eopiates_com/images/home/social.png) no-repeat 0 0;
+  text-indent: -9999px;
+  overflow: hidden;
+  margin-top: 3px;
+  display: block;
+  float: right;
+  width: 27px;
+  height: 27px;
+  }
+
+.dribbble {
+  background-position: -34px 0;
+  margin-left: 6px;
+  }
+
+.twitter:hover,
+.dribbble:hover {
+  opacity: .7;
+  }
+
+.push {
+  height: 6em;
+  }
+
+/*
+  SWIPE
+--------------------------------------------- */
+
+#swipe {
+  position: relative;
+  padding: 0 0 51px;
+  margin-left: 0;
+  width: 100%;
+  z-index: 1;
+  }
+
+.no-js #swipe {
+  padding: 0 0 27px;
+  }
+
+#swipe .wrapper {
+  margin: 0 auto;
+  width: 90%;
+  }
+
+#swipe ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+
+#swipe a {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+  }
+
+/*
+  PROJECTS
+--------------------------------------------- */
+
+#main .project {
+  margin-bottom: 1em;
+  }
+
+.project ul {
+  list-style: none;
+  }
+
+.desc {
+  border-top: 1px solid rgb(41,37,31);
+  padding-top: 2em;
+  margin-bottom: 1em;
+  overflow: hidden;
+  }
+
+.project .desc h2 {
+  margin-bottom: .2em;
+  }
+
+.oldie .project .desc h2 {
+  margin-bottom: .1em;
+  }
+
+.first h2 {
+  display: none;
+  }
+
+.first .desc {
+  padding-top: 0;
+  border: 0;
+  }
+
+/*
+  BLOG
+--------------------------------------------- */
+
+.blog h1 {
+  margin-bottom: .5em;
+  }
+
+.sub .articles {
+  width: 100%;
+  margin-top: 1em;
+  }
+
+.entry .articles {
+  margin-top: 0;
+  }
+
+article {
+  margin: 0 0 2.5em;
+  overflow: hidden;
+  float: left;
+  width: 100%;
+  }
+
+.entry article,
+article:last-child {
+  margin-bottom: 0;
+  }
+
+.blog article p,
+.entry article img {
+  margin-bottom: 1.2em;
+  }
+
+.entry article img {
+  width: 98% !important;
+  }
+
+article h3 {
+  margin-bottom: 0;
+  }
+
+article h3 a,
+article h3 a:visited,
+article h1 a,
+article h1 a:visited {
+  color: rgb(41,37,31);
+  }
+
+.sub article .byline {
+  margin: .4em 0 1.4em;
+  font-size: .6875em;
+  display: block;
+  }
+
+aside {
+  display: none;
+  }
+
+.entry h1 {
+  font: 2em/1 "TrumpGothicEastMedium", "Arial Narrow", Impact, sans-serif;
+  margin: .3em 0 .1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: left;
+  }
+
+.no-fontface .entry h1 {
+  text-transform: none;
+  }
+
+.entry h1 a,
+.entry h1 a:hover {
+  text-decoration: none;
+  color: rgb(41,37,31);
+  }
+
+.backto {
+  margin-top: .5em;
+  display: block;
+  float: left;
+  }
+
+/*
+  MEDIA QUERIES,FIRST UP: PRINT
+--------------------------------------------- */
+
+@media print {
+
+  * {
+    background: transparent !important;
+    text-shadow: none !important;
+    color: black !important;
+    filter: none !important;
+    -ms-filter: none !important;
+    }
+
+  @page {
+    margin: .5cm;
+    }
+
+  nav,h1,#swipe,footer {
+    display: none;
+    }
+
+  header {
+    padding: 50px 0 0;
+    margin: 0;
+    }
+
+  .sub h1,.sub h2 {
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0;
+    display: block;
+    }
+
+  h2,h2 a {
+    font: 1.875em/1.3em "TrumpGothicEastMedium", "Arial Narrow", Impact, sans-serif;
+    text-transform: normal;
+    letter-spacing: 1px;
+    margin-bottom: .3em;
+    margin-left: .5cm;
+    text-align: left;
+    width: auto;
+    }
+
+  h2,h3 {
+    page-break-after: avoid;
+    orphans: 3;
+    widows: 3;
+    }
+
+  p {
+    orphans: 3;
+    widows: 3;
+    }
+
+  pre,blockquote {
+    page-break-inside: avoid;
+    }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+    }
+
+  a,a:visited {
+    text-decoration: underline;
+    color: #444 !important;
+    }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+    }
+
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+    }
+
+  .figure a[href]:after {
+    content: "";
+    }
+
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+    }
+
+  }
+
+/*
+  600px
+--------------------------------------------- */
+
+@media screen and (min-width: 600px) {
+
+  .pushwrapper {
+    margin: 0 auto -9em;
+    }
+
+  .push {
+    height: 9em;
+    }
+
+  .border {
+    background: rgb(41,37,31) url(http://opiatesdrugs.com/eopiates_com/images/internal/backgrounds/darkbrown.jpg) repeat -100% 0;
+    width: 100%;
+    height: 7px;
+    }
+
+  .ie6 .border {
+    margin-top: -13px;
+    }
+
+  header,nav,#main,footer {
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+
+  .sub header {
+    height: 120px;
+    }
+
+  .wrapper,.figure {
+    position: relative;
+    max-width: none;
+    margin: 0 auto;
+    display: block;
+    width: 550px;
+    }
+
+  #swipe .wrapper {
+    width: 548px;
+    }
+
+  h1 {
+    margin: 114px auto 20px;
+    width: 80%;
+    }
+
+  .sub h1 {
+    text-align: left;
+    font-size: 3em;
+    width: 100%;
+    margin: 0;
+    }
+
+  h2 {
+    font: normal 1.45em/1.3em "TrumpGothicEastRegular", "Arial Narrow", Impact, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 75%;
+    }
+
+  .no-fontface h2 {
+    text-transform: none;
+    }
+
+  .sub h2 {
+    font: 1.45em/1.3 "TrumpGothicEastRegular", "Arial Narrow", Impact, sans-serif;
+    letter-spacing: 1px;
+    margin: 0 0 1.4em;
+    text-align: left;
+    width: 100%;
+    }
+
+  h2 a,
+  h2 a:visited {
+    font: normal 1em/1 "TrumpGothicEastBold", "Arial Narrow", Impact, sans-serif;
+    letter-spacing: 0;
+    }
+
+  h3 {
+    margin-bottom: .5em;
+    }
+
+  p {
+    margin-bottom: .8em;
+    }
+
+  header {
+    padding: 25px 0 0;
+    }
+
+  .figure a {
+    position: absolute;
+    margin: 0;
+    top: -5px;
+    left: 0;
+    }
+
+  .figure img {
+    width: 77px;
+    }
+
+  nav li:last-child {
+    display: block;
+    }
+
+  nav {
+    background: transparent none;
+    position: absolute;
+    margin-top: 18px;
+    margin-right: 0;
+    padding: 0;
+    top: 32px;
+    right: 0;
+    }
+
+  .ie7 nav {
+    top: 30px;
+    }
+
+  nav select {
+    display: none;
+    }
+
+  nav ul {
+    font: 1.3575em/1.4 "TrumpGothicEastRegular", "Arial Narrow", Impact, sans-serif;
+    text-transform: uppercase;
+    list-style: none;
+    margin-right: 0;
+    display: block;
+    float: right;
+    }
+
+  .no-fontface nav ul {
+    text-transform: none;
+    }
+
+  nav li {
+    margin-left: 8px;
+    display: block;
+    float: left;
+    padding: 0;
+    }
+
+  nav a:link,
+  nav a:hover,
+  nav a:visited {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    letter-spacing: 1.6px;
+    color: rgb(255,255,255);
+    padding: 10px 13px 6px;
+    text-decoration: none;
+    font-size: 1em;
+    }
+
+  nav a:hover {
+    text-shadow: 0 2px 1px rgba(0,0,0,.2);
+    background: rgba(42,40,34,.3);
+    }
+
+  nav .active a:active {
+    opacity: 1.0;
+    }
+
+  nav .active a,
+  nav .active a:visited,
+  nav .active a:hover,
+  .no-js nav .active a,
+  .no-js nav .active a:visited,
+  .no-js nav .active a:hover,
+  .no-js .sub nav .active a,
+  .no-js .sub nav .active a:visited,
+  .no-js .sub nav .active a:hover  {
+    background: rgb(42,40,34) url(http://opiatesdrugs.com/eopiates_com/images/home/backgrounds/darkbrown.jpg) repeat;
+    color: rgb(255,255,255);
+    }
+
+  nav .active {
+    background: transparent /*url(http://opiatesdrugs.com/eopiates_com/images/home/
+								  
+								  )*/ none no-repeat 50% 31px;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-duration: .5s;
+    -webkit-animation-name: arrow;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    padding-bottom: 31px;
+    margin: 0 0 0 8px;
+    }
+
+  nav .active:hover {
+    /* background-position: 50% 25px; */
+    }
+
+  .ie6 nav .active {
+    background: transparent none;
+    }
+
+  .sub nav a,
+  .sub nav a:hover,
+  .sub nav a:visited {
+    color: rgb(41,37,31);
+    }
+
+  .sub nav .active a,
+  .sub nav .active a:hover {
+    color: rgb(255,255,255) !important;
+    }
+  
+  .sub nav a:hover {
+    text-shadow: none;
+    }
+
+  #main {
+    padding-top: 43px;
+    }
+
+  section {
+    margin-right: 20px;
+    width: 170px;
+    float: left;
+    }
+
+  .ie7 section {
+    width: 165px;
+    }
+
+  .sub section {
+    width: 265px;
+    }
+
+  section.last,
+  .sub section.last {
+    margin-right: 0;
+    }
+
+  section p,
+  .entry article ul {
+    font-size: .875em;
+    }
+
+  .sub section p {
+    margin-bottom: 0;
+    }
+  
+  .blog article p {
+    margin-bottom: 1em;
+    }
+
+  .sub p + p {
+    text-indent: 1.5em;
+    }
+  
+  .sub article p + p {
+    text-indent: 0;
+    }
+  
+  .sub .project p + p {
+    margin-bottom: 0;
+    }
+
+  .sub section span {
+    font: 52px "TrumpGothicEastBold", "Arial Narrow", Impact, sans-serif;
+    text-transform: uppercase;
+    margin: 0.20em 0.2em 0 0;
+    color: rgb(81,77,71);
+    letter-spacing: 0;
+    line-height: 38px;
+    float: left;
+    }
+
+  footer {
+    margin-top: 3em;
+    }
+
+  .sub footer {
+    margin-top: 5.4em;
+    }
+
+  #main .project {
+    width: 100%;
+    }
+
+  .desc h2 {
+    font: 2em/1.3 "TrumpGothicEastMedium", "Arial Narrow", Impact, sans-serif;
+    }
+
+  .first .desc {
+    margin-top: -1.2em;
+    }
+
+  .desc {
+    margin-bottom: 2em;
+    }
+
+  .blog h1 {
+    margin-bottom: .3em;
+    }
+
+  .entry h1 {
+    line-height: 1em;
+    margin: 1em 0 0;
+    font-size: 3em;
+    }
+
+  .sub article h3 {
+    line-height: 1.2em;
+    font-size: 2em;
+    margin-bottom: 0;
+    }
+
+  .sub article .byline {
+    font-size: .75em;
+    }
+
+  .entry article .byline {
+    margin-bottom: 2.5em;
+    }
+
+  blockquote  {
+    font-size: .9375em;
+    padding-left: 45px;
+    }
+
+  .entry article h3 {
+    margin: 1em 0 .2em;
+    font-size: 1.45em;
+    }
+
+  .sub .articles {
+    margin-top: 2.5em;
+    }
+
+  .entry .articles {
+    margin-top: 0;
+    }
+
+  .error h2 {
+    margin-bottom: 1em;
+    width: 280px;
+    }
+
+  .jacket {
+    float: right;
+    margin: -190px 50px 0 0;
+    overflow: hidden;
+    width: 157px !important;
+    height: 375px;
+    }
+
+  .ie6 .jacket {
+    margin-right: 25px;
+    }
+
+  }
+
+/*
+  700px
+--------------------------------------------- */
+
+@media screen and (min-width: 700px) {
+
+  .wrapper,.figure {
+    width: 650px;
+    }
+
+  #swipe .wrapper {
+    width: 648px;
+    }
+
+  section {
+    margin-right: 25px;
+    width: 200px;
+    }
+
+  .ie7 section {
+    width: 190px;
+    }
+
+  .sub section {
+    width: 300px;
+    }
+
+  h2 {
+    margin-bottom: 15px;
+    line-height: 1.5em;
+    }
+
+  .sub h2 {
+    line-height: 1.4em;
+    width: 90%;
+    }
+
+  .project img {
+    margin-bottom: 2em;
+    }
+
+  .entry h1 {
+    font-size: 3.375em;
+    }
+  
+  .error h2 {
+    margin-bottom: 1em;
+    width: 320px;
+    }
+
+  .jacket {
+    float: right;
+    margin: -200px 80px 0 0;
+    overflow: hidden;
+    }
+
+  .ie6 .jacket {
+    margin-right: 40px;
+    }
+
+  }
+
+/*
+  1023px
+--------------------------------------------- */
+
+@media screen and (min-width: 1023px) {
+
+  .wrapper,.figure,
+  .oldie .wrapper {
+    width: 940px;
+    }
+
+  .figure a {
+    top: 6px;
+    }
+
+  .figure img {
+    width: 84px;
+    }
+
+  #swipe {
+    padding-top: 0;
+    }
+
+  h1 {
+    margin: 135px auto 36px;
+    width: 100%;
+    padding: 0;
+    }
+
+  .sub h1 {
+    font-size: 4em;
+    }
+
+  h1 img {
+    width: 625px !important; /* 771 x 0.81 = 224.51px */
+    height: 244px; /* 311 x 0.81 = 244px */
+    display: block;
+    margin: 0 auto;
+    }
+
+  h2,h3 {
+    margin-bottom: 25px;
+    line-height: 1.5em;
+    font-size: 1.75em;
+    width: 610px;
+    }
+
+  .sub h2 {
+    line-height: 1.3em;
+    font-size: 2em;
+    width: 780px;
+    }
+
+  .error h2 {
+    width: 450px;
+    }
+
+  h3 {
+    margin-bottom: 7px;
+    width: auto;
+    }
+
+  section p,
+  .entry article ul {
+    margin-bottom: .9em;
+    font-size: 1em;
+    }
+
+  .figure a {
+    margin: -12px 0 0 10px;
+    }
+
+  nav {
+    right: 10px;
+    top: 36px;
+    }
+
+  #main {
+    padding-top: 45px;
+    }
+
+  #main form {
+    width: 600px;
+    float: left;
+    }
+
+  #main button,#main input,
+  #main select,#main textarea {
+    padding: 8px 5px;
+    width: 550px;
+    float: left;
+    }
+
+  #main label {
+    width: 150px;
+    float: left;
+    }
+
+  #main #submit {
+    width: 80px;
+    }
+
+  .complementary {
+    margin-top: 15px;
+    display: block;
+    float: right;
+    }
+
+  section {
+    width: 294px;
+    }
+
+  .ie7 section {
+    width: 294px;
+    }
+
+  .sub section {
+    margin-right: 40px;
+    width: 450px;
+    }
+
+  .sub section.last {
+    margin-right: 0;
+	width:300px
+    }
+
+  .sub section span {
+    line-height: 48px;
+    font-size: 62px;
+    }
+
+  footer {
+    margin-top: 3.4em;
+    }
+
+  .sub footer {
+    margin-top: 5.4em;
+    }
+
+  #main .img {
+    margin-bottom: 5em;
+    width: 700px;
+    float: left;
+    }
+
+  .desc {
+    font-size: .875em;
+    float: right;
+    width: 200px;
+    }
+
+  .project img {
+    margin-bottom: 4em;
+    }
+
+  .first .desc {
+    border-top: 1px solid rgb(41,37,31);
+    padding-top: 2em;
+    margin-top: 0;
+    }
+
+  .first h2 {
+    display: block;
+    }
+
+  .blog #main h1 {
+    margin-bottom: .2em;
+    }
+
+  .entry #main h1 {
+    font-size: 4em;
+    margin: 1em 0 .1em;
+    }
+
+  .entry #main .byline {
+    margin-bottom: 3em;
+    }
+
+  .sub .articles {
+    margin-top: 3.5em;
+    width: 630px;
+    }
+
+  .entry .articles {
+    margin-top: 0;
+    }
+
+  article {
+    margin: 0 0 2.5em 0;
+    }
+
+  .sub article h3 {
+    font-size: 2.5em;
+    }
+
+  .entry article h3 {
+    margin: 1.2em 0 .4em;
+    font-size: 1.75em;
+    }
+
+  aside {
+    margin-right: 50px;
+    line-height: 18px;
+    margin-top: 10.5em;
+    overflow: hidden;
+    font-size: 13px;
+    display: block;
+    float: right;
+    width: 200px;
+    }
+
+  .entry aside {
+    margin-top: 14em;
+    }
+
+  .ie6 .entry aside,
+  .ie7 .entry aside {
+    margin-top: 12em;
+    }
+
+  aside img {
+    margin-bottom: 1em;
+    }
+
+  aside a,
+  aside a:visited,
+  aside a:hover {
+    text-decoration: underline;
+    white-space: nowrap;
+    background: none;
+    padding: 0;
+    border: 0;
+    }
+
+  blockquote  {
+    font-size: .875em;
+    }
+
+  .sub article .byline {
+    font-size: .75em;
+    margin: 0 0 1.4em;
+    }
+
+  .error h1 {
+    margin-top: .2em;
+    }
+
+  .error h2 {
+    margin-bottom: 1em;
+    }
+
+  .jacket {
+    float: right;
+    margin: -290px 121px 0 0;
+    width: 224px !important;
+    height: 536px;
+    overflow: hidden;
+    }
+
+  .oldie .jacket {
+    margin-top: -245px;
+    }
+
+  .ie6 .jacket {
+    margin-right: 60px;
+    }
+
+  .oldie .error h2 {
+    width: 450px !important;
+    }
+
+  }
+
+/*
+  1700px
+--------------------------------------------- */
+
+@media screen and (min-width: 1699px) {
+
+  .wrapper,.figure,
+  .oldie .wrapper {
+    width: 1140px;
+    }
+
+  .sub header {
+    height: 140px;
+    }
+
+  #swipe .wrapper {
+    width: 1138px;
+    }
+
+  nav {
+    font-size: 1.1em;
+    top: 45px;
+    }
+
+  nav .active {
+    background-position: 50% 34px;
+    }
+
+  nav .active:hover {
+    /* background-position: 50% 30px; */
+    }
+
+  h1 {
+    margin: 165px auto 50px;
+    }
+
+  .sub h1 {
+    font-size: 5em;
+    }
+
+  .entry h1 {
+    font-size: 5em;
+    }
+
+  h1 img {
+    width: 771px !important; /* 100% */
+    height: 301px; /* 100% */
+    }
+
+  h2,h3 {
+    margin-bottom: 1.5em;
+    font-size: 2em;
+    width: 680px;
+    }
+
+  .sub h2 {
+    font-size: 2.2em;
+    width: 840px;
+	margin:20px 0 20px 0
+    }
+	h2.h2-main{}
+
+  section {
+    margin-right: 45px; 
+    width: 350px;
+    }
+
+  .sub section {
+    width: 800px;
+    }
+
+  section p {
+    line-height: 24px;
+    }
+	.drug-class{font: 2em "TrumpGothicEastBold", "Arial Narrow", Impact, sans-serif;
+    text-transform: uppercase;
+    margin: 20px 0 20px 0;
+    color: rgb(81,77,71);
+    letter-spacing: 0;
+    line-height: 2em;}
+  .ie7 section {
+    margin-right: 35px;
+    width: 340px;
+    }
+
+  .ie7 .sub section {
+    width: 800px;
+    }
+
+  h3 {
+    margin-bottom: 7px;
+    width: auto;
+    }
+  .rightContinue li{float:left; width:33%}
+  .figure a {
+    margin-top: -5px;
+    }
+
+  .ie7 .figure a {
+    top: 12px;
+    }
+
+  .figure img {
+    width: 97px;
+    }
+
+  #main {
+    padding-top: 58px;
+    }
+
+  #main .img {
+    width: 840px;
+    }
+
+  #main .desc {
+    width: 250px;
+    }
+
+  #main .desc p {
+    line-height: 1.6em;
+    }
+
+  .sub .articles,
+  .ie7 .sub .articles {
+    width: 760px;
+    }
+
+  aside {
+    margin-top: 11em;
+    width: 250px;
+    }
+
+  .entry aside {
+    margin-top: 14em;
+    }
+
+  .ie6 .entry aside,
+  .ie7 .entry aside {
+    margin-top: 12em;
+    }
+
+  .error h2 {
+    margin-bottom: 1em;
+    width: 480px;
+    }
+
+  .jacket {
+    margin: -340px 150px 0 0;
+    }
+
+  .ie6 .jacket {
+    margin-right: 80px;
+    }
+
+  }
+
+/*
+  HEIGHT UNDER 710px
+--------------------------------------------- */
+
+@media screen and (min-width: 1023px) and (max-width: 1699px) and (max-height: 710px) {
+
+  header .wrapper {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    width: 550px;
+    }
+
+  h1 {
+    margin-top: 124px;
+    width: 98%;
+    }
+
+  h1 img {
+    width: 100% !important;
+    height: auto;
+    }
+
+  .oldie h1 {
+    margin: 135px auto 36px;
+    width: 100% !important;
+    }
+
+  .oldie h1 img {
+    width: 625px !important; /* 771 x 0.81 = 624.51px */
+    height: 244px; /* 311 x 0.81 = 244px */
+    display: block;
+    margin: 0 auto;
+    }
+
+  .oldie .sub h1 {
+    font-size: 8em;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    }
+
+  h2 {
+    font: normal 1.45em/1.4em "TrumpGothicEastRegular", "Arial Narrow", Impact, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 75%;
+    }
+
+  .oldie h2 {
+    margin-bottom: 25px;
+    line-height: 1.5em;
+    font-size: 1.75em;
+    width: 610px;
+    }
+
+  .oldie .sub h2 {
+    margin-bottom: 1.5em;
+    line-height: 1.3em;
+    font-size: 2em;
+    width: 780px;
+    }
+
+  }
+
+/*
+  IPAD (PORTRAIT + LANDSCAPE)
+--------------------------------------------- */
+@media screen and (device-width: 768px) {
+
+  a:link,
+  a:visited,
+  a:active,
+  a:focus,
+  #main #submit {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+    opacity: 1.0 !important;
+    }
+
+  }
+
+/*
+  IPHONE (PORTRAIT + LANDSCAPE)
+--------------------------------------------- */
+@media screen and (device-width: 320px) {
+
+  a:link,
+  a:visited,
+  a:active,
+  a:focus,
+  #main #submit {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+    opacity: 1.0 !important;
+    }
+
+  }
+
+/*
+  RETINA 2X
+--------------------------------------------- */
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-o-min-device-pixel-ratio: 3/2),
+screen and (min-device-pixel-ratio: 1.5) {
+
+  header {
+    -webkit-background-size: 119px 119px;
+    -moz-background-size: 119px 119px;
+    background-size: 119px 119px;
+    }
+
+  nav {
+    -webkit-background-size: 320px 34px;
+    -moz-background-size: 320px 34px;
+    background-size: 320px 34px;
+    }
+
+  .twitter,
+  .dribbble {
+    background: transparent url(http://opiatesdrugs.com/eopiates_com/images/home/social.png) no-repeat 0 0;
+    -webkit-background-size: 61px 27px;
+    -moz-background-size: 61px 27px;
+    background-size: 61px 27px;
+    }
+
+  .oldie .twitter,
+  .oldie .dribbble {
+    background: transparent url(http://opiatesdrugs.com/eopiates_com/images/home/social.png) no-repeat 0 0;
+    }
+
+  .dribbble,
+  .oldie .dribbble {
+    background-position: -34px 0;
+    }
+
+  }

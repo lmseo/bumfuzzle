@@ -1,0 +1,1 @@
+<div id="header"><div id="header-inside"><div id="header-top"><div id="logo"><h1><a href="http://www.opiates.com" title="Rapid Detox">Opiates</a></h1></div><!-- End of Logo--></div><!--End of Top-Header--></div><!-- header-inside--><?php include_once( $include_root . '/includes/pages/2011/campaign/part.mainNavBar.php'); ?> <!-- navBar-wrapper--></div>

@@ -1,0 +1,5 @@
+<?php 
+header('Content-type: application/xml; charset="utf-8"',true);
+	$include_root = $_SERVER['DOCUMENT_ROOT']."/";
+	require_once($include_root."includes/sitemap/2014/XMLSitemap.php");
+?>

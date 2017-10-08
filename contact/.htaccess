@@ -1,0 +1,2 @@
+Options +ExecCGI
+AddHandler x-httpd-php5-cgi .php .htm .html .xml

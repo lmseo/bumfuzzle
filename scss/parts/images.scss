@@ -1,0 +1,8 @@
+img{border:0;background:transparent;-ms-interpolation-mode:bicubic}
+#main img{width:100%;height:auto}
+.img a:active,.img a:focus{opacity:1.0;-webkit-transition:none;-moz-transition:none;-o-transition:none;transition:none}
+.project img,.entry article img{-webkit-box-shadow:rgba(0,0,0,.4) 0 0 3px;-moz-box-shadow:rgba(0,0,0,.4) 0 0 3px;box-shadow:rgba(0,0,0,.4) 0 0 3px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;margin-bottom:1em;max-width:840px}
+.oldie .project img{border:1px solid rgb(210,210,210)}
+.project .nofx,.oldie .project .nofx,.entry article img{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;border:0}
+.jacket{width:112px !important;height:268px;display:block;margin:0 auto}
+svg:not(:root){overflow:hidden}

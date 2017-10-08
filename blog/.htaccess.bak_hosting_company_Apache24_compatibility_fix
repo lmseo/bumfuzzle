@@ -1,0 +1,16 @@
+Redirect 301 /burprenorphine.html http://www.eopiates.com/buprenorphine.html
+Redirect 301 /rapid-detox-pregnancy.html http://www.eopiates.com/rapid-detox/rapid-detox-pregnancy.html
+Redirect 301 /codeine-chlorcyclizine.html http://www.eopiates.com/codeine/codeine-chlorcyclizine.html
+
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /blog/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /blog/index.php [L]
+</IfModule>
+
+# END WordPress

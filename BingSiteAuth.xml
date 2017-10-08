@@ -1,0 +1,5 @@
+<?php echo '<?xml version="1.0"?>
+<users>
+	<user>B387D4A3C10F0AC2178417FB39823ECD</user>
+</users>';
+?>

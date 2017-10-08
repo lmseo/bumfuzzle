@@ -1,0 +1,13 @@
+fieldset{border-width:0;padding:0;margin:0}
+button,input,select,textarea{background:rgb(255,255,255);vertical-align:baseline;font-size:100%;width:284px}
+.ie7 button,.ie7 input,.ie7 select,.ie7 textarea{vertical-align:middle}
+button,input{line-height:normal}
+.ie7 button,.ie7 input{overflow:visible}
+::-webkit-input-placeholder{font-size:.875em;line-height:1.4}
+input:-moz-placeholder{font-size:.875em;line-height:1.4}
+textarea{width:284px}
+input[type="radio"]{width:13px;height:13px;margin:0 4px 0 4px}
+input[type="submit"]{background-color:#CD5200;color:#fff;padding:7px 0 7px 0}
+input.phonenumber{width:88px}
+.contactFormBox{margin:0 0 40px 0}
+#phone3{margin:0;padding:0}

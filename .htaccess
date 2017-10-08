@@ -1,0 +1,291 @@
+# The below FilesMatch stanza was added by your
+#  hosting provider on 2013-06-27 11:47:34
+#  to resolve a potential Apache 2.4
+#  compatibility issue with your custom AddHandler(s)
+#  for PHP.  If you feel this was in error, please
+#  contact support and we will work to resolve the
+#  issue.  Thanks!
+
+
+<IfModule mod_headers.c>
+Header set X-UA-Compatible "IE=Edge,chrome=1"
+<FilesMatch "\.(js|css|gif|png|jpe?g|pdf|xml|oga|ogg|m4a|ogv|mp4|m4v|webm|svg|svgz|eot|ttf|otf|woff|ico|webp|appcache|manifest|htc|crx|xpi|safariextz|vcf)$" >
+Header unset X-UA-Compatible
+</FilesMatch>
+</IfModule>
+<FilesMatch "\.(ttf|ttc|otf|eot|woff|font.css)$">
+<IfModule mod_headers.c>
+Header set Access-Control-Allow-Origin "*"
+</IfModule>
+</FilesMatch>
+AddType application/javascript         js
+AddType audio/ogg                      oga ogg
+AddType audio/mp4                      m4a
+AddType video/ogg                      ogv
+AddType video/mp4                      mp4 m4v
+AddType video/webm                     webm
+AddType     image/svg+xml              svg svgz 
+AddEncoding gzip                       svgz                         
+AddType application/vnd.ms-fontobject  eot
+AddType application/x-font-ttf    ttf ttc
+AddType font/opentype                  otf
+AddType application/x-font-woff        woff                                   
+AddType image/x-icon                   ico
+AddType image/webp                     webp
+AddType text/cache-manifest            appcache manifest
+AddType text/x-component               htc
+AddType application/x-chrome-extension crx
+AddType application/x-xpinstall        xpi
+AddType application/octet-stream       safariextz
+AddType text/x-vcard                   vcf
+<IfModule mod_deflate.c>
+<IfModule mod_setenvif.c>
+<IfModule mod_headers.c>
+SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
+RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
+</IfModule>
+</IfModule>
+</IfModule>
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresDefault                          "access plus 1 month"
+ExpiresByType text/cache-manifest       "access plus 0 seconds"
+ExpiresByType text/html                 "access plus 0 seconds"
+ExpiresByType text/xml                  "access plus 0 seconds"
+ExpiresByType application/xml           "access plus 0 seconds"
+ExpiresByType application/json          "access plus 0 seconds"
+ExpiresByType application/rss+xml       "access plus 1 hour"
+ExpiresByType application/atom+xml      "access plus 1 hour"
+ExpiresByType image/x-icon              "access plus 1 week" 
+ExpiresByType image/gif                 "access plus 1 month"
+ExpiresByType image/png                 "access plus 1 month"
+ExpiresByType image/jpg                 "access plus 1 month"
+ExpiresByType image/jpeg                "access plus 1 month"
+ExpiresByType video/ogg                 "access plus 1 month"
+ExpiresByType audio/ogg                 "access plus 1 month"
+ExpiresByType video/mp4                 "access plus 1 month"
+ExpiresByType video/webm                "access plus 1 month"
+ExpiresByType text/x-component          "access plus 1 month"
+ExpiresByType font/truetype             "access plus 1 month"
+ExpiresByType font/opentype             "access plus 1 month"
+ExpiresByType application/x-font-woff   "access plus 1 month"
+ExpiresByType image/svg+xml             "access plus 1 month"
+ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
+ExpiresByType text/css                  "access plus 1 year"
+ExpiresByType application/javascript    "access plus 1 year"
+<IfModule mod_headers.c>
+Header append Cache-Control "public"
+</IfModule>
+</IfModule>
+<IfModule mod_headers.c>
+Header unset ETag
+</IfModule>
+FileETag None
+<IfModule mod_rewrite.c>
+Options +FollowSymlinks
+RewriteEngine On
+</IfModule>
+Options -MultiViews
+Options -Indexes
+<IfModule mod_rewrite.c>
+RewriteRule "(^|/)\." - [F]
+</IfModule>
+#<IfModule php5_module>
+#php_flag register_globals Off
+#php_value session.name opiatesSID
+#php_value session.cookie_httponly true
+#</IfModule>
+
+Redirect 301 /actiq.html http://www.eopiates.com/actiq/
+Redirect 301 /buprenorphine.html http://www.eopiates.com/buprenorphine/
+Redirect 301 /burprenorphine.html http://www.eopiates.com/buprenorphine.html
+Redirect 301 /butorphanol.html http://www.eopiates.com/butorphanol/
+Redirect 301 /codeine.html http://www.eopiates.com/codeine/
+Redirect 301 /codeine-chlorcyclizine.html http://www.eopiates.com/codeine/codeine-chlorcyclizine.html
+Redirect 301 /co-gesic.html http://www.eopiates.com/co-gesic/
+Redirect 301 /combunox.html http://www.eopiates.com/combunox/
+Redirect 301 /darvocet.html http://www.eopiates.com/darvocet/
+Redirect 301 /dazidox.html http://www.eopiates.com/dazidox/
+Redirect 301 /demerol.html http://www.eopiates.com/demerol/
+Redirect 301 /dihydrocodeine.html http://www.eopiates.com/dihydrocodeine/
+Redirect 301 /dilaudid.html http://www.eopiates.com/dilaudid/
+Redirect 301 /diphenoxylate.html http://www.eopiates.com/diphenoxylate/
+Redirect 301 /duragesic.html http://www.eopiates.com/duragesic/
+Redirect 301 /endocet.html http://www.eopiates.com/endocet/
+Redirect 301 /endocodone.html http://www.eopiates.com/endocodone/
+Redirect 301 /endodan.html http://www.eopiates.com/endodan/
+Redirect 301 /eth-oxydose.html http://www.eopiates.com/eth-oxydose/
+Redirect 301 /fentanyl.html http://www.eopiates.com/fentanyl/
+Redirect 301 /fentora.html http://www.eopiates.com/fentora/
+Redirect 301 /heroin.html http://www.eopiates.com/heroin/
+Redirect 301 /hydrocodone.html http://www.eopiates.com/hydrocodone/
+Redirect 301 /hydromet.html http://www.eopiates.com/hydromet/
+Redirect 301 /hydromorphone.html http://www.eopiates.com/hydromorphone/
+Redirect 301 /hydromorphone.html http://www.eopiates.com/hydromorphone/
+Redirect 301 /ibudone.html http://www.eopiates.com/ibudone/
+Redirect 301 /kadian.html http://www.eopiates.com/kadian/
+Redirect 301 /levacetylmethadol.html http://www.eopiates.com/laam/
+Redirect 301 /levorphanol.html http://www.eopiates.com/levorphanol/
+Redirect 301 /liquicet.html http://www.eopiates.com/liquicet/
+Redirect 301 /lorcet.html http://www.eopiates.com/lorcet/
+Redirect 301 /lortab.html http://www.eopiates.com/lortab/
+Redirect 301 /lynox.html http://www.eopiates.com/lynox/
+Redirect 301 /magnacet.html http://www.eopiates.com/magnacet/
+Redirect 301 /maxidone.html http://www.eopiates.com/maxidone/
+Redirect 301 /meperidine.html http://www.eopiates.com/meperidine/
+Redirect 301 /methadone.html http://www.eopiates.com/methadone/
+Redirect 301 /morphine.html http://www.eopiates.com/morphine/
+Redirect 301 /ms-contin.html http://www.eopiates.com/ms-contin/
+Redirect 301 /narvox.html http://www.eopiates.com/narvox/
+Redirect 301 /norco.html http://www.eopiates.com/norco/
+Redirect 301 /opana.html http://www.eopiates.com/opana/
+Redirect 301 /opium.html http://www.eopiates.com/opium/
+Redirect 301 /oxycodone.html http://www.eopiates.com/oxycodone/
+Redirect 301 /oxycontin.html http://www.eopiates.com/oxycontin/
+Redirect 301 /oxycontin.html http://www.eopiates.com/oxycontin/
+Redirect 301 /oxyfast.html http://www.eopiates.com/oxyfast/
+Redirect 301 /oxyir.html http://www.eopiates.com/oxyir
+Redirect 301 /oxymorphone.html http://www.eopiates.com/oxymorphone/
+Redirect 301 /percocet.html http://www.eopiates.com/percocet/
+Redirect 301 /percodan.html http://www.eopiates.com/percodan/
+Redirect 301 /percodan.html http://www.eopiates.com/percodan/
+Redirect 301 /percolone.html http://www.eopiates.com/percolone/
+Redirect 301 /perloxx.html http://www.eopiates.com/perloxx/
+Redirect 301 /poppy-tea.html http://www.eopiates.com/poppy-tea/
+Redirect 301 /primalev.html http://www.eopiates.com/primalev/
+Redirect 301 /propoxyphene.html http://www.eopiates.com/propoxyphene/
+Redirect 301 /propoxyphene.html http://www.eopiates.com/propoxyphene/
+Redirect 301 /rapid-detox-pregnancy.html http://www.eopiates.com/rapid-detox/rapid-detox-pregnancy.html
+Redirect 301 /reprexain.html http://www.eopiates.com/reprexain/
+Redirect 301 /rezira.html http://www.eopiates.com/rezira/
+Redirect 301 /roxicet.html http://www.eopiates.com/roxicet/
+Redirect 301 /roxicodone.html http://www.eopiates.com/roxicodone/
+Redirect 301 /roxiprin.html http://www.eopiates.com/roxiprin/
+Redirect 301 /stadol.html http://www.eopiates.com/stadol/
+Redirect 301 /suboxone.html http://www.eopiates.com/suboxone/
+Redirect 301 /subutex.html http://www.eopiates.com/subutex/
+Redirect 301 /taxadone.html http://www.eopiates.com/taxadone/
+Redirect 301 /tramadol.html http://www.eopiates.com/tramadol/
+Redirect 301 /tussionex.html http://www.eopiates.com/tussionex/
+Redirect 301 /tylox.html http://www.eopiates.com/tylox/
+Redirect 301 /ultram.html http://www.eopiates.com/ultram/
+Redirect 301 /ultram.html http://www.eopiates.com/ultram/
+Redirect 301 /vicodin.html http://www.eopiates.com/vicodin/
+Redirect 301 /vicodin.html http://www.eopiates.com/vicodin/
+Redirect 301 /vicoprofen.html http://www.eopiates.com/vicoprofen/
+Redirect 301 /xodol.html http://www.eopiates.com/xodol/
+Redirect 301 /xolox.html http://www.eopiates.com/xolox/
+Redirect 301 /zydone.html http://www.eopiates.com/zydone/
+Redirect 301 /sitemap/drugaddictiondetoxlinks.html http://www.opiates.com/sitemap/
+Redirect 301 /inpatient-opiate-detox.html http://www.eopiates.com/opiate-detox.html
+Redirect 301 /opiate-detox-pregnancy.html http://www.eopiates.com/opiate-detox.html
+Redirect 301 /medical-opiate-detox.html http://www.eopiates.com/opiate-detox.html
+Redirect 301 /opiate-detox-challenges.html http://www.eopiates.com/opiate-detox.html
+Redirect 301 /opiate-detox-comparisons.html http://www.eopiates.com/opiate-detox.html
+Redirect 301 /opiate-detox-possible-complications.html http://www.eopiates.com/opiate-detox.html
+Redirect 301 /opiate-detox-myths.html http://www.eopiates.com/opiate-detox.html
+Redirect 301 /opiate-home-detox.html http://www.eopiates.com/opiate-detox.html
+Redirect 301 /outpatient-opiate-detox.html http://www.eopiates.com/opiate-detox.html
+Redirect 301 /types-opiate-detox.html http://www.eopiates.com/opiate-detox.html
+Redirect 301 /opiate-detox-center.html http://www.eopiates.com/opiate-detox.html
+Redirect 301 /opiate-history.html http://www.eopiates.com/opiates-history.html
+Redirect 301 /before-taking-opiates.html http://www.eopiates.com/opiate-uses.html#before-taking-opiates
+Redirect 301 /opiate-use-signs.html http://www.eopiates.com/opiate-uses.html#signs-of-opiate-use
+Redirect 301 /opiate-misuse.html http://www.eopiates.com/opiate-uses.html#opiate-misuse
+Redirect 301 /opiates-gastrointestinal-effects.html http://www.eopiates.com/opiate-side-effects.html#opiates-and-gastrointestinal-effects
+Redirect 301 /opiate-induced-gastrointestinal-damage.html http://www.eopiates.com/opioids/opioid-induced-gastrointestinal-damage.html
+Redirect 301 /opiate-induced-hyperalgesia.html http://www.eopiates.com/opiate-side-effects.html#opiate-induced-hyperalgesia
+Redirect 301 /buprenorphine-opiates.html http://www.eopiates.com/opiate-treatment.html#buprenorphine-and-opiates
+Redirect 301 /getting-off-opiates.html http://www.eopiates.com/opiate-treatment.html#getting-off-opiates
+Redirect 301 /quitting-opiates-cold-turkey.html http://www.eopiates.com/opiate-treatment.html#quitting-opiates-cold-turkey
+Redirect 301 /opiates-suboxone.html http://www.eopiates.com/opiate-treatment.html#suboxone-and-opiates
+Redirect 301 /opiates-extended-support-programs.html http://www.eopiates.com/opiate-rehabilitation.html#opiates-extended-support
+Redirect 301 /opiate-tests-ways-detect-use.html http://www.eopiates.com/opiate-test.html
+Redirect 301 /oxycodone/oxycodone-history.html http://www.eopiates.com/oxycodone/#oxycodone-history
+Redirect 301 /oxycodone/oxycodone-controlled-substance.html http://www.eopiates.com/oxycodone/#oxycodone-controlled-substance
+Redirect 301 /oxycodone/before-taking-oxycodone.html http://www.eopiates.com/oxycodone/#before-taking-oxycodone
+Redirect 301 /oxycodone/inpatient-oxycodone-detox.html http://www.eopiates.com/oxycodone/oxycodone-detox.html#inpatient-oxycodone-detox
+Redirect 301 /oxycodone/outpatient-oxycodone-detox.html http://www.eopiates.com/oxycodone/oxycodone-detox.html#outpatient-oxycodone-detox
+Redirect 301 /oxycodone/oxycodone-detox-pregnancy.html http://www.eopiates.com/oxycodone/oxycodone-detox.html#oxycodone-detox-pregnancy
+Redirect 301 /oxycodone/oxycodone-detox-challenges.html http://www.eopiates.com/oxycodone/oxycodone-detox.html#oxycodone-detox-challenges
+Redirect 301 /oxycodone/oxycodone-detox-myths.html http://www.eopiates.com/oxycodone/oxycodone-detox.html#oxycodone-detox-myths
+Redirect 301 /oxycodone/oxycodone-home-detox.html http://www.eopiates.com/oxycodone/oxycodone-detox.html#oxycodone-home-detox
+Redirect 301 /oxycodone/oxycodone-detox-possible-complications.html http://www.eopiates.com/oxycodone/oxycodone-detox.html#oxycodone-detox-possible-complications
+Redirect 301 /oxycodone/types-oxycodone-detox.html http://www.eopiates.com/oxycodone/oxycodone-detox.html#types-oxycodone-detox
+Redirect 301 /oxycodone/oxycodone-detox-center.html http://www.eopiates.com/oxycodone/oxycodone-detox.html#oxycodone-detox-center
+Redirect 301 /oxycodone/quitting-oxycodone-cold-turkey.html http://www.eopiates.com/oxycodone/oxycodone-treatment.html#quitting-oxycodone-cold-turkey
+Redirect 301 /oxycodone/getting-off-oxycodone.html http://www.eopiates.com/oxycodone/oxycodone-rehab.html#getting-off-oxycodone
+Redirect 301 /oxycodone/buying-oxycodone-without-prescription.html http://www.eopiates.com/oxycodone/oxycodone-abuse.html#buying-oxycodone-without-prescription
+Redirect 301 /oxycodone/oxycodone-test.html http://www.eopiates.com/oxycodone/oxycodone-uses.html#oxycodone-test
+Redirect 301 /oxycodone/oxycodone-missed-dose.html http://www.eopiates.com/oxycodone/oxycodone-dosage-administration.html#oxycodone-missed-dose
+Redirect 301 /oxycodone/oxycodone-description.html http://www.eopiates.com/oxycodone/oxycodone-facts.html#oxycodone-description
+Redirect 301 /oxycodone/oxycodone-detox/ http://www.eopiates.com/oxycodone/oxycodone-detox.html
+Redirect 301 /codeine/before-taking-codeine.html http://www.eopiates.com/codeine/codeine-uses.html#before-taking-codeine
+Redirect 301 /codeine/codeine-central-nervous-system-effects.html http://www.eopiates.com/codeine/codeine-side-effects.html#codeine-central-nervous-system-effects
+Redirect 301 /codeine/codeine-controlled-substance.html http://www.eopiates.com/codeine/#codeine-controlled-substance
+Redirect 301 /codeine/codeine-induced-tolerance.html http://www.eopiates.com/codeine/codeine-side-effects.html#codeine-induced-tolerance
+Redirect 301 /codeine/codeine-induced-neurotoxicity.html http://www.eopiates.com/codeine/codeine-side-effects.html#codeine-induced-neurotoxicity
+Redirect 301 /codeine/codeine-induced-nausea-and-drowsiness.html http://www.eopiates.com/codeine/codeine-side-effects.html#codeine-induced-nausea-and-drowsiness
+Redirect 301 /codeine/codeine-induced-hyperalgesia.html http://www.eopiates.com/codeine/codeine-side-effects.html#codeine-induced-hyperalgesia
+Redirect 301 /codeine/codeine-induced-sexual-dysfunction.html http://www.eopiates.com/codeine/codeine-side-effects.html#codeine-induced-sexual-dysfunction
+Redirect 301 /codeine/codeine-cough-syrup.html http://www.eopiates.com/codeine/codeine-uses.html#codeine-cough-syrup
+Redirect 301 /codeine/codeine-gastrointestinal-effects.html http://www.eopiates.com/codeine/codeine-side-effects.html#codeine-gastrointestinal-effects
+Redirect 301 /codeine/codeine-signs-of-use.html http://www.eopiates.com/codeine/codeine-abuse.html#codeine-signs-of-use
+Redirect 301 /codeine/codeine-detox-types.html http://www.eopiates.com/codeine/codeine-detox.html#codeine-detox-types
+Redirect 301 /codeine/codeine-home-detox.html http://www.eopiates.com/codeine/codeine-detox.html#codeine-home-detox
+Redirect 301 /codeine/quitting-codeine-cold-turkey.html http://www.eopiates.com/codeine/codeine-detox.html#quitting-codeine-cold-turkey
+Redirect 301 /codeine/codeine-ibogaine.html http://www.eopiates.com/codeine/codeine-detox.html#codeine-ibogaine
+Redirect 301 /codeine/codeine-inpatient-detox.html  http://www.eopiates.com/codeine/codeine-detox.html#codeine-inpatient-detox
+Redirect 301 /codeine/codeine-hospital-detox.html http://www.eopiates.com/codeine/codeine-detox.html#codeine-hospital-detox
+Redirect 301 /codeine/codeine-medical-detox.html http://www.eopiates.com/codeine/codeine-detox.html#codeine-medical-detox
+Redirect 301 /codeine/codeine-outpatient-detox.html http://www.eopiates.com/codeine/codeine-detox.html#codeine-outpatient-detox
+Redirect 301 /codeine/codeine-suboxone.html http://www.eopiates.com/codeine/codeine-detox.html#codeine-suboxone
+Redirect 301 /codeine/codeine-buprenorphine.html http://www.eopiates.com/codeine/codeine-detox.html#codeine-buprenorphine
+Redirect 301 /codeine/codeine-methadone.html http://www.eopiates.com/codeine/codeine-detox.html#codeine-methadone
+Redirect 301 /codeine/codeine-detox-challenges.html http://www.eopiates.com/codeine/codeine-detox.html#codeine-detox-challenges
+Redirect 301 /codeine/codeine-detox-pregnancy.html http://www.eopiates.com/codeine/codeine-detox.html#codeine-detox-pregnancy
+Redirect 301 /codeine/codeine-detox-comparisons.html http://www.eopiates.com/codeine/codeine-detox.html
+Redirect 301 /codeine/codeine-support.html http://www.eopiates.com/codeine/codeine-extended-support.html
+Redirect 301 /codeine/codeine-detox-possible-complications.html http://www.eopiates.com/codeine/codeine-detox.html
+Redirect 301 /codeine/codeine-rapid-detox-center.html http://www.eopiates.com/codeine/codeine-detox.html
+Redirect 301 /codeine/codeine-detox-clinics.html http://www.eopiates.com/codeine/codeine-detox.html
+Redirect 301 /codeine/codeine-detox-myths.html http://www.eopiates.com/codeine/codeine-detox.html
+Redirect 301 /codeine/getting-off-codeine.html http://www.eopiates.com/codeine/codeine-detox.html
+Redirect 301 /codeine/codeine-extended-support.html http://www.eopiates.com/codeine/codeine-recovery.html
+Redirect 301 /codeine/codeine-detox-possible-complications.html http://www.eopiates.com/codeine/codeine-detox.html
+Redirect 301 /codeine/codeine-dependency-symptoms.html http://www.eopiates.com/codeine/codeine-dependence.html
+Redirect 301 /codeine/codeine-addiction-symptoms.html http://www.eopiates.com/codeine/codeine-addiction.html#codeine-addiction-symptoms
+Redirect 301 /codeine/codeine-addiction-vs-codeine-dependency.html http://www.eopiates.com/codeine/codeine-addiction.html#codeine-addiction-vs-codeine-dependency
+Redirect 301 /codeine/codeine-addiction-family.html http://www.eopiates.com/codeine/codeine-addiction.html#codeine-addiction-family
+Redirect 301 /codeine/codeine-addiction-facts.html http://www.eopiates.com/codeine/codeine-addiction.html#codeine-addiction-facts
+
+
+ErrorDocument 404 /errordocuments/404page.html
+
+<files "sitemap.xml">
+Options +ExecCGI
+AddHandler x-httpd-php5-cgi .php .htm .html .xml
+</files>
+#<FilesMatch "\.(htm|html|xml)$">
+#   Options +ExecCGI
+#</FilesMatch>
+#Options +ExecCGI
+#AddType application/x-httpd-php .php .htm .html .xml
+#AddHandler x-httpd-php5-cgi .php .htm .html .xml
+
+Options +FollowSymLinks
+RewriteCond %{HTTP_HOST} ^eopiates.com [NC] 
+RewriteRule ^(.*)$ http://www.eopiates.com/$1 [L,R=301]
+RewriteCond %{REQUEST_URI} ^(.*)//(.*)$ 
+RewriteRule . http://www.eopiates.com%1/%2 [R=301,L] 
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(([^/]+/)*)(index|default)\.html\ HTTP/ 
+RewriteRule (index|default)\.html$ http://www.eopiates.com/%1 [R=301,L]
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>

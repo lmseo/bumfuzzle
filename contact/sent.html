@@ -1,0 +1,10 @@
+<?php
+session_start();
+error_reporting( E_CORE_ERROR | E_CORE_WARNING | E_COMPILE_ERROR | E_ERROR | E_WARNING | E_PARSE | E_USER_ERROR | E_USER_WARNING | E_RECOVERABLE_ERROR );
+$include_root = $_SERVER['DOCUMENT_ROOT'];include_once $include_root .  "/includes/drug-master/session.php"; 
+require_once($include_root . '/includes/templates/2015/january/main/part.docType.php');
+ ?><head><?php include_once($include_root . '/includes/templates/2015/january/contact/part.metaHead.php'); ?><?php
+require_once($include_root."/contact/classes/class.contactform.php"); 
+ $newForm = new contactForm(); ?></head><body class="sub about">
+ <?php require_once($include_root . '/includes/templates/2015/january/contact/part.content-sent.php'); ?>
+</body></html>

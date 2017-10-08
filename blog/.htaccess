@@ -1,0 +1,37 @@
+# The below FilesMatch stanza was added by your
+#  hosting provider on 2013-06-27 11:47:34
+#  to resolve a potential Apache 2.4
+#  compatibility issue with your custom AddHandler(s)
+#  for PHP.  If you feel this was in error, please
+#  contact support and we will work to resolve the
+#  issue.  Thanks!
+<FilesMatch "\.(html)$">
+  Options +ExecCGI
+</FilesMatch>
+
+Redirect 301 /blog/opiates/2012/07/22/can-tamper-proof-versions-of-heavy-painkillers-push-addicts-to-harsher-opioids/ http://www.eopiates.com/blog/can-tamper-proof-versions-of-heavy-painkillers-push-addicts-to-harsher-opioids/
+Redirect 301 /blog/opiates/2012/07/22/methadone-new-crc-report-dispels-some-myths-about-addiction-treatment/ http://www.eopiates.com/blog/methadone-new-crc-report-dispels-some-myths-about-addiction-treatment/
+Redirect 301 /blog/opiates/oxycodone/2012/07/22/drug-and-alcohol-addiction-the-enabler/ http://www.eopiates.com/blog/drug-and-alcohol-addiction-the-enabler/
+Redirect 301 /blog/drug-testing/2012/07/22/a-brief-explanation-of-the-drug-tests-that-may-occur-in-the-work-place/ http://www.eopiates.com/blog/a-brief-explanation-of-the-drug-tests-that-may-occur-in-the-work-place/
+Redirect 301 /blog/opiates/2012/07/13/doctor-loses-license-to-prescribe/ http://www.eopiates.com/blog/doctor-loses-license-to-prescribe/
+Redirect 301 /blog/opiates/oxycodone/2012/07/11/fda-to-crack-down-on-unregulated-oxycodone/ http://www.eopiates.com/blog/fda-to-crack-down-on-unregulated-oxycodone/
+Redirect 301 /blog/side-effects/2012/01/11/side-effects-of-oxycontin/ http://www.eopiates.com/blog/side-effects-of-oxycontin/
+Redirect 301 /blog/drug-testing/2012/01/11/drug-testing-for-oxycontin/ http://www.eopiates.com/blog/drug-testing-for-oxycontin/
+Redirect 301 /blog/politics/2011/12/27/arizona-voters-say-yes-to-medical-marijuana/ http://www.eopiates.com/blog/arizona-voters-say-yes-to-medical-marijuana/
+Redirect 301 /blog/recovery/relapse/2012/08/31/relapse-prevention-the-relapse-process/ http://www.eopiates.com/blog/opiate-addiction-and-relapse-prevention/
+Redirect 301 /blog/recovery/relapse/2012/08/23/relapse-prevention-identifying-triggers/ http://www.eopiates.com/blog/opiate-addiction-and-relapse-prevention/
+Redirect 301 /blog/celebrities/2012/12/11/sid-vicious-the-violent-life-of-an-addict/ http://www.eopiates.com/blog/sid-vicious-the-violent-life-of-an-addict/
+Redirect 301 /blog/drugs/side-effects/2012/08/31/opioid-induced-neurotoxicity/ http://www.eopiates.com/blog/opioid-induced-neurotoxicity/
+Redirect 301 /blog/drugs/side-effects/2012/08/21/opioid-induced-constipation/ http://www.eopiates.com/blog/opioid-induced-constipation/
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /blog/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /blog/index.php [L]
+</IfModule>
+
+# END WordPress

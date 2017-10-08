@@ -1,0 +1,3 @@
+<?php include_once $include_root .  "/includes/drug-master/session.php";require_once($include_root . '/includes/templates/2014/july/main/part.docType.php');
+ ?><head><?php include_once($include_root . '/includes/templates/2014/july/instantSearch/part.metaHead.php'); ?></head><body class="sub about" itemscope itemtype="http://schema.org/MedicalWebPage"><?php require_once($include_root . '/includes/templates/2014/july/instantSearch/part.content.php');?>
+</body></html>

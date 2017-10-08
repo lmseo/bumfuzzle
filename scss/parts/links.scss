@@ -1,0 +1,16 @@
+a,a:visited{-webkit-transition:all .2s ease-in;-moz-transition:all .2s ease-in;-o-transition:all .2s ease-in;transition:all .2s ease-in;text-decoration:none;color:#C30}
+a:hover,a:active{outline:0}
+a:hover{text-decoration:underline}
+a:active,a:focus{-webkit-transition:none;-moz-transition:none;-o-transition:none;transition:none;opacity:.7}
+h2 a,h2 a:visited{font-family:"PTSansBold", "Helvetica Neue", Helvetica, Arial, sans-serif;text-decoration:none;color:rgb(35,32,26)}
+.sub h2 a,.sub h2 a:visited{/*font-family:"TrumpGothicEastMedium", "Arial Narrow", Impact, sans-serif*/}
+h2 a:hover,h2 a:active{text-decoration:underline;opacity:1.0}
+p a,p a:visited,.entry article ul a,.entry article ul a:visited{color:#CA3232;;text-decoration:underline;padding:0 3px;font-weight:bold}
+p a:hover,.entry article ul a:hover{text-decoration:none}
+.readmore{background-position:right 4px; transition: padding-right}
+.readmore:hover{background:transparent url(http://cfb53adb9351fd691fd4-80f3ec783953bb03d20a214936320935.r9.cf1.rackcdn.com/images/home/arrow_red.png) no-repeat right 4px;padding-right:20px}
+.sub article .readmore{margin-top:-0.3em;display:block;float:left}
+section.content-links li{float:left;width:115px;display:list-item;list-style-type:decimal;padding-left:5px;padding-right:5px}
+section.content-links ul{margin-left:5px}
+footer a,footer a:visited{background:transparent;color:rgb(160,161,154);padding:0;border:0}
+footer a:hover{color:rgb(41,37,31)}
